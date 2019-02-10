@@ -1,3 +1,8 @@
+## Advance Lane Detection using Python & OpenCV Project 2 
+The goal of this project is to develop a pipeline to process a video stream from a forwardfacing camera mounted on the front of a car, and output an annotated video which identifies: 
+• The positions of the lane lines • The location of the vehicle relative to the center of the lane • The radius of curvature of the road 
+1. Calibrate Camera 2. Remove Distortion using the calibration matrix 3. Perform Perspective Transform  4. Extract Channel & Apply Binary Thresholds 5. Find Lane peaks using Histogram 
+
 ## Advanced Lane Finding
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 ![Lanes Image](./examples/example_output.jpg)
